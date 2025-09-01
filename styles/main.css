@@ -5,3 +5,13 @@
 @import "_header.css";
 @import "_home.css";
 
+::-webkit-scrollbar {
+    border-radius: 9999px;
+    background-color: white;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 2px;
+    background-color: var(--red);
+}
