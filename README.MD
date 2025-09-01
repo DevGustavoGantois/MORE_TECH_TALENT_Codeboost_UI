@@ -1,4 +1,4 @@
-# 🌟 More | Talent Tech - Landing Page de Curso de Design de Produto Digital
+# 🌟 More | Talent Tech - Landing Page Design de Produto Digital
 
 ![Pré-visualização do projeto](img/ImgProjeto.png)
 
