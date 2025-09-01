@@ -1,5 +1,5 @@
 header {
-    position: absolute;
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -7,30 +7,34 @@ header {
     border-bottom: 2px solid #FDFDFD;
     display: flex;
     align-items: center;
-};
+    z-index: 1000;
+}
 
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-};
+    position: relative; 
+}
 
 .right {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex: 1;
-    max-width: 381px;
+    justify-content: center;
+    gap: 1.6rem;
 }
 
 .right ul {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
 }
 
-.right .btn {
+.right a.btn {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .btn span {
@@ -42,7 +46,7 @@ header .container {
     margin-right: 16px;
 }
 
-ul li {
+.right ul li {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -51,7 +55,7 @@ ul li {
 .tag {
     position: absolute;
     left: 15px;
-    bottom: -35px;
+    bottom: -55px;
     background-color: #FDFDFD;
     border-radius: 122px;
     padding: 0.8rem 1.6rem;

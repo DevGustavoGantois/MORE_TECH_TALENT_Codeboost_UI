@@ -1,6 +1,7 @@
-@import "variables";
-@import "reset";
-@import "fonts";
-@import "grid";
-@import "header";
-@import "home";
+@import "_variables.css";
+@import "_reset.css";
+@import "_fonts.css";
+@import "_grid.css";
+@import "_header.css";
+@import "_home.css";
+

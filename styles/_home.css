@@ -4,7 +4,7 @@
     padding-top: 19.3rem;
     padding: 18rem;
     overflow-x: hidden;
-};
+}
 
 .s-hero .container {
     display: flex;
@@ -47,7 +47,7 @@ h1::after {
     height: 8px;
     background-color: var(--yellow);
     position: absolute;
-    bottom: 12px;
+    bottom: 3px;
     left: 0;
 }
 
@@ -131,4 +131,50 @@ form button {
     text-align: center;
     letter-spacing: -0.01em;
     color: #FDFDFD;
-};
+}
+
+.s-card {
+    padding-bottom: 11.6rem;
+    margin-top: 11.6rem;
+}
+
+.s-card .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    max-width: 38.4rem;
+    height: 21.6rem;
+    background-color: #FDFDFD;
+    box-shadow: 0px 24px 44px -11px rgba(181, 183, 192, 0.3);
+    border-radius: 12px;
+    padding: 4.8rem 5.4rem 4rem 4rem;
+}
+
+.card .icon {
+    margin-bottom: 2.9rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h3 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 150%;
+    color: var(--black);
+    margin-bottom: 0.3rem;
+}
+
+.text p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: var(--gray02);
+}
