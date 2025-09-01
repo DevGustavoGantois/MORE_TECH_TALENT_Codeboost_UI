@@ -18,8 +18,16 @@
 }
 
 .container .left {
+    position: relative;
     width: 100%;
     max-width: 56.4rem;
+    margin-top: 1.6rem;
+}
+
+.container .left .star {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .container .left h1 {
@@ -88,7 +96,24 @@ form input {
 .container .review {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
+
+.review span {
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--gray);
+}
+
+.review span img {
+    margin-right: 0.6rem;
+}
+
 
 input::placeholder {
     color: var(--gray02);
