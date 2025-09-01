@@ -1,6 +1,6 @@
 # 🌟 More | Talent Tech - Landing Page de Curso de Design de Produto Digital
 
-![Pré-visualização do projeto](https://ImgProjeto.png)
+![Pré-visualização do projeto](img/ImgProjeto.png)
 
 Projeto desenvolvido para apresentar o curso completo de **Design de Produto Digital** da Môre Educação, destacando módulos, projetos práticos e redes sociais. O objetivo é criar uma landing page moderna, responsiva e intuitiva, com foco em conversão e experiência do usuário.
 
@@ -9,7 +9,7 @@ Projeto desenvolvido para apresentar o curso completo de **Design de Produto Dig
 ## 🔗 Links Importantes
 
 - **Acesse o deploy do projeto:** [Clique aqui](https://lp-codeboost-ui.netlify.app/)  
-- **Pré-visualização da imagem:** ![Pré-visualização](https://ImgProjeto.png)
+- **Pré-visualização da imagem:** ![Pré-visualização](img/ImgProjeto.png)
 
 ---
 
