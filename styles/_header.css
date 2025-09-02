@@ -65,3 +65,50 @@ header .container {
     color: var(--red);
 }
 
+/* ====== Ajuste para telas até 1024px ====== */
+@media screen and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        gap: 24px;
+        height: auto; /* evita altura fixa que pode quebrar */
+        padding: 1.6rem 0;
+    }
+
+    header .container {
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    .right {
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    .right ul {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
+
+/* ====== Ajuste para telas até 768px ====== */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 1.2rem 0;
+        gap: 16px;
+    }
+
+    .btn span {
+        font-size: 14px;
+        margin-right: 12px;
+    }
+
+    .right ul li {
+        gap: 12px;
+    }
+
+    .tag {
+        font-size: 12px;
+        padding: 0.6rem 1.2rem;
+        bottom: -45px;
+    }
+}
