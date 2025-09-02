@@ -275,4 +275,8 @@ form button {
     .tag {
         bottom: -24px;
     }
+
+    .left ul {
+        flex-direction: column;
+    }
 }
