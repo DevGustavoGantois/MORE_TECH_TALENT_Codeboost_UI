@@ -181,9 +181,82 @@ form button {
 }
 
 @media screen and (max-width: 1024px) {
+
+     .s-hero {
+        margin-top: 6rem;
+        padding: 8rem 2rem; 
+    }
+
+    .review {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-hero .container {
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+    }
+
+    .s-hero .container .right {
+        position: relative;
+        right: 0; 
+        order: -1; 
+        margin-bottom: 2rem;
+        max-width: 90%;
+    }
+
+    .container .left {
+        max-width: 100%;
+    }
+
+    .container .left h1 {
+        font-size: 3.2rem; 
+        line-height: 4.2rem;
+    }
+
+    h1::after {
+        width: 70%;
+        height: 6px;
+        bottom: -4px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    .container .left p {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+
+    .container .left form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    form input {
+        width: 100%;
+        margin: 0;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    form button {
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 1.2rem;
+    }
+
     .s-card .container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 16px;
     }
 
@@ -191,5 +264,15 @@ form button {
         width: 100%;
         padding-bottom: 11.6rem;
         margin-top: 3.6rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img_phone {
+        width: 100%;
+    }
+
+    .tag {
+        bottom: -24px;
     }
 }

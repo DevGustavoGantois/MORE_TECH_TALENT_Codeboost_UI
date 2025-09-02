@@ -70,7 +70,7 @@ header .container {
     header {
         flex-direction: column;
         gap: 24px;
-        height: auto; /* evita altura fixa que pode quebrar */
+        height: auto; 
         padding: 1.6rem 0;
     }
 
